@@ -17,14 +17,14 @@ function App() {
     })
   }
   function submit() {
-    alert(Count)
+    Count = 0
   }
   return (
     <>
       <h1>{Count}</h1>
       <button className='incdec r1' onClick={() => increment()}>+</button>
       <button className='incdec r2' onClick={() => decrement()}>-</button>
-      <button className='submit' onClick={() => submit()}>SUBMIT</button>
+      <button className='submit' onClick={() => submit()}>RESET</button>
     </>
   );
 }
