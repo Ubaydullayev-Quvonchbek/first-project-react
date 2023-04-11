@@ -22,9 +22,9 @@ function App() {
   return (
     <>
       <h1>{Count}</h1>
-      <button className='incdec' onClick={() => increment()}>+</button>
-      <button className='incdec' onClick={() => decrement()}>-</button>
-      <button className='submit' onClick={() => submit()}>Submit</button>
+      <button className='incdec r1' onClick={() => increment()}>+</button>
+      <button className='incdec r2' onClick={() => decrement()}>-</button>
+      <button className='submit' onClick={() => submit()}>SUBMIT</button>
     </>
   );
 }
